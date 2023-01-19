@@ -48,7 +48,6 @@ a,.secondary-text{
 	display: flex;
 	justify-content: space-between;
 	gap: 25px;
-	border: 1px solid white;
 }
 
 .teks-dan-button{
@@ -83,8 +82,7 @@ a,.secondary-text{
 	flex-shrink: 0;
 }
 
-img{
-	max-width: 100%;
-	max-height: 100%;
-	display: block;
+.kiri-header img{
+	height: 50px;
+	width: 150px;
 }
