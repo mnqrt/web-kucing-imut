@@ -21,12 +21,13 @@ body{
 .header{
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 32px;
+	margin-bottom: 20px;
 }
 
 .kiri-header{
 	font-size: 24px;
 	color: #F9FAF8;
+	width: 50px;
 }
 
 a,.secondary-text{
@@ -36,14 +37,18 @@ a,.secondary-text{
 }
 
 .kumpulan-link{
-	width: 40%;
+	width: 300px;
 	display: flex;
 	justify-content: space-between;
+	gap: 10px;
 	align-items: center;
 }
 
 .konten-cont1{
 	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+	border: 1px solid white;
 }
 
 .teks-dan-button{
@@ -56,10 +61,30 @@ a,.secondary-text{
 	color: #F9FAF8;
 }
 
-.foto-kucing-cont1{
+.tombol-cont1{
+	color: antiquewhite;
+	background-color: #3882F6;
+	font-weight: 700;
+	width: 100px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+.foto-kucing{
 	flex: 1;
-	background-image: url(https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.foto-kucing img{
+	height: 350px;
+	width: 550px;
+	flex-shrink: 0;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
 }
