@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+}
+
 body{
-    background-color: #1f2937;
+	background-color: #1f2937;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	overflow-y: auto;
+}
+
+.cont1{
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+}
+
+.kiri-header{
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+a,.secondary-text{
+	text-decoration: none;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.kumpulan-link{
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.konten-cont1{
+	display: flex;
+}
+
+.teks-dan-button{
+	flex: 1;
+}
+
+.main-text{
+	font-size: 48px;
+	font-weight: 800;
+	color: #F9FAF8;
+}
+
+.foto-kucing-cont1{
+	flex: 1;
+	background-image: url(https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
