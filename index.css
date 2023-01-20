@@ -13,6 +13,7 @@ body{
 	overflow-y: auto;
 	display: flex;
 	flex-direction: column;
+	gap: 15px;
 }
 
 .cont1{
@@ -110,7 +111,6 @@ a,.secondary-text{
 	height: 100px;
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
 	padding-top: 32px;
 }
 
@@ -118,10 +118,8 @@ a,.secondary-text{
 	height: 300px;
 	display: flex;
 	justify-content: center;
-	gap: 18px;
-	/* align-items: center; */
+	gap: 30px;
 	padding-top : 5px;
-	/* border: 1px solid red; */
 }
 
 .foto-dan-teks-cont2{
@@ -144,4 +142,31 @@ a,.secondary-text{
 	font-size: 16px;
 	text-align: center;
 	height: 66px;
+}
+
+.cont3{
+	height: 250px;
+	background-color: #E5E7EB;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+}
+
+.Quote{
+	height: 160px;
+	width: 800px;
+	text-align: left;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.Author{
+	height: 20px;
+	width: 800px;
+	font-weight: 500;
+	text-align: right;
+	margin: -20px;
 }
