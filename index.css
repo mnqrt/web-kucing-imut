@@ -106,7 +106,6 @@ a,.secondary-text{
 	font-size: 36px;
 	font-weight: bolder;
 	height: 100px;
-	border: 1px solid red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -136,5 +135,5 @@ a,.secondary-text{
 
 .teks-cont2{
 	/* border: 1px solid yellowgreen; */
-	
+
 }
